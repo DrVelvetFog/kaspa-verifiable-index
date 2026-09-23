@@ -1,0 +1,67 @@
+{
+  "covenant_id": "d8aef60bd643dced2f1a70558d9147dabaf2e8256e3ea3f6d782f0f36c12d271",
+  "network": "testnet-10",
+  "status": "active",
+  "lineage_complete": true,
+  "event_count": 2,
+  "live_utxos": 1,
+  "live_value": 999797100,
+  "genesis_txid": "32f72d17d5b4d0c63d9fdbd1b499517008ac836acdbe2afa9c0a12ccc8c06474",
+  "name": "steady-slate-raven",
+  "events": [
+    {
+      "kind": "genesis",
+      "txid": "32f72d17d5b4d0c63d9fdbd1b499517008ac836acdbe2afa9c0a12ccc8c06474",
+      "seq": 0,
+      "accepting_daa": 568140903,
+      "tx_index": 1
+    },
+    {
+      "kind": "transition",
+      "txid": "005a2add6a55a4542bf387bacbea051b3d3e1e32b3374c0c12b9b66e48300b27",
+      "seq": 1,
+      "accepting_daa": 568140922,
+      "tx_index": 1
+    }
+  ],
+  "utxos": [
+    {
+      "outpoint": "32f72d17d5b4d0c63d9fdbd1b499517008ac836acdbe2afa9c0a12ccc8c06474:0",
+      "created_daa": 568140903,
+      "live": false,
+      "value": 1000000000,
+      "script_hex": "aa2099143bcaf705296b0aec424ec79c083fc9fecbb433f8460589d46bffc130df5e87",
+      "script_asm": [],
+      "state_fields": [
+        {
+          "name": "program_hash",
+          "value": "99143bcaf705296b0aec424ec79c083fc9fecbb433f8460589d46bffc130df5e"
+        }
+      ],
+      "template": "p2sh commitment",
+      "uses_covenant_ops": false,
+      "uses_zk_ops": false,
+      "spent_txid": "005a2add6a55a4542bf387bacbea051b3d3e1e32b3374c0c12b9b66e48300b27",
+      "spent_budget": 10
+    },
+    {
+      "outpoint": "005a2add6a55a4542bf387bacbea051b3d3e1e32b3374c0c12b9b66e48300b27:0",
+      "created_daa": 568140922,
+      "live": true,
+      "value": 999797100,
+      "script_hex": "aa20327e419635cfc50190e2a3f6fcd4c6cb5e30bd46ae7c52d8914a4a38b187b31e87",
+      "script_asm": [],
+      "state_fields": [
+        {
+          "name": "program_hash",
+          "value": "327e419635cfc50190e2a3f6fcd4c6cb5e30bd46ae7c52d8914a4a38b187b31e"
+        }
+      ],
+      "template": "p2sh commitment",
+      "uses_covenant_ops": false,
+      "uses_zk_ops": false,
+      "spent_txid": null,
+      "spent_budget": null
+    }
+  ]
+}

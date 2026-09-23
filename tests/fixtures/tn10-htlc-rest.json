@@ -1,0 +1,86 @@
+[
+  {
+    "accepting_block_blue_score": 555342744,
+    "accepting_block_hash": "10027447af520fed83e61b89db86a82874074e0f4c0dc5b3f8b876da537d1da6",
+    "accepting_block_time": 1788988068631,
+    "block_hash": [
+      "d221a15354c27913125dc856e5729f0f0432fd4bcc792e62925e6051b28d1b1f"
+    ],
+    "block_time": 1788988068475,
+    "hash": "1840785a3fa7d19a995cb45c65691b7f10c7b52840a1332efb6bf3e050a7cbfe",
+    "inputs": [
+      {
+        "compute_budget": 10,
+        "covenant_id": null,
+        "index": 0,
+        "previous_outpoint_address": null,
+        "previous_outpoint_amount": null,
+        "previous_outpoint_hash": "fbc87406d43fb2f0d337ca66409173421c08d00162af30b6e05e93ed42a583d9",
+        "previous_outpoint_index": "0",
+        "sig_op_count": null,
+        "signature_script": "410da29b89a9c325371b9872f3cfced018a700584e4dc7d0002cb5fdb248f6b2b7177ebefb179599cea7abe72684658f68dc98de9ace1f9aa0905b3942acb07bd401",
+        "transaction_id": "5935cfacb0d04646fa6e70a9d6aae58a38f6a1dd214a8f0e8f1ab8b39f0d11f6"
+      }
+    ],
+    "is_accepted": true,
+    "mass": "1671",
+    "outputs": [
+      {
+        "amount": 999999816500,
+        "covenant_authorizing_input": 0,
+        "covenant_id": "867042d7826b9cfa526731a286278f9f39c4a3c9fc27232ec764045937ad3046",
+        "index": 0,
+        "script_public_key": "aa20db234640f84e0d44e1af3827641883882b0d009aaeb6a295aca6ace4cd57713f87",
+        "script_public_key_address": "kaspatest:prdjx3jqlp8q638p4uuzweqcswyzkrgqn2htdg544jn2eexd2acn7c25k6rht",
+        "script_public_key_type": "scripthash",
+        "transaction_id": "5935cfacb0d04646fa6e70a9d6aae58a38f6a1dd214a8f0e8f1ab8b39f0d11f6"
+      }
+    ],
+    "payload": null,
+    "subnetwork_id": "0000000000000000000000000000000000000000",
+    "transaction_id": "5935cfacb0d04646fa6e70a9d6aae58a38f6a1dd214a8f0e8f1ab8b39f0d11f6",
+    "version": 1
+  },
+  {
+    "accepting_block_blue_score": 555342762,
+    "accepting_block_hash": "b086d6715f81baa22cc6dea6aa6c79c9c379a3fa13fe7d3044e1a80efc0aea03",
+    "accepting_block_time": 1788988070660,
+    "block_hash": [
+      "581da2ad4932c46f9e63964e39ec4825530d30708a0bf5dc00948d7722bc8a9c"
+    ],
+    "block_time": 1788988070453,
+    "hash": "17be7cbaadf502cf0f3444565af472b4a05219e19118bd93c59366d0aaff111f",
+    "inputs": [
+      {
+        "compute_budget": 10,
+        "covenant_id": "867042d7826b9cfa526731a286278f9f39c4a3c9fc27232ec764045937ad3046",
+        "index": 0,
+        "previous_outpoint_address": null,
+        "previous_outpoint_amount": null,
+        "previous_outpoint_hash": "5935cfacb0d04646fa6e70a9d6aae58a38f6a1dd214a8f0e8f1ab8b39f0d11f6",
+        "previous_outpoint_index": "0",
+        "sig_op_count": null,
+        "signature_script": "04434c544804a6f1c021004cba6b0800000000000000006c76009c637576009c69527904434c54489c697804b542c2219f69b9cb519c695158cd01087c7eb976c902ba0094765193bc7c7eb976c97602ba00945a937cbc7eaa02000001aa7e01207e7c7e01877eb900ccc38769757575516776519c637576009c697804b542c221a269b9cb519c695258cd01087c7eb976c902ba0094765193bc7c7eb976c97602ba00945a937cbc7eaa02000001aa7e01207e7c7e01877eb900ccc38769757551677500696868",
+        "transaction_id": "5220df286bda74981b9691b14c173963155cdb5d37e870e3e90e05df853e554f"
+      }
+    ],
+    "is_accepted": true,
+    "mass": "1804",
+    "outputs": [
+      {
+        "amount": 999999613100,
+        "covenant_authorizing_input": 0,
+        "covenant_id": "867042d7826b9cfa526731a286278f9f39c4a3c9fc27232ec764045937ad3046",
+        "index": 0,
+        "script_public_key": "aa20c8c1ba4feddae1ae72b4a4875fc0a1139c84541eb8c10ae0dce12de2e08b5bd687",
+        "script_public_key_address": "kaspatest:pryvrwj0ahdwrtnjkjjgwh7q5yfeepz5r6uvzzhqmnsjmchq3ddavwnqa9jzl",
+        "script_public_key_type": "scripthash",
+        "transaction_id": "5220df286bda74981b9691b14c173963155cdb5d37e870e3e90e05df853e554f"
+      }
+    ],
+    "payload": null,
+    "subnetwork_id": "0000000000000000000000000000000000000000",
+    "transaction_id": "5220df286bda74981b9691b14c173963155cdb5d37e870e3e90e05df853e554f",
+    "version": 1
+  }
+]

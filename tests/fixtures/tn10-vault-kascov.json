@@ -1,0 +1,67 @@
+{
+  "covenant_id": "86b0599327f2c2759a09ddbc3079551ca796199d23df6a6ffc0e6cf89e16786c",
+  "network": "testnet-10",
+  "status": "active",
+  "lineage_complete": true,
+  "event_count": 2,
+  "live_utxos": 1,
+  "live_value": 59530500,
+  "genesis_txid": "9235ee5fa9eb4d6a1cce06f9edaf62d96f4d03fe69364b40b5e52b530e98a57e",
+  "name": "brave-slate-gecko",
+  "events": [
+    {
+      "kind": "genesis",
+      "txid": "9235ee5fa9eb4d6a1cce06f9edaf62d96f4d03fe69364b40b5e52b530e98a57e",
+      "seq": 0,
+      "accepting_daa": 565551957,
+      "tx_index": 1
+    },
+    {
+      "kind": "transition",
+      "txid": "33743ee5fc224aae3e01ced94f29c6ca3238d7dc4a3c92b8a2c49948cc575d4f",
+      "seq": 1,
+      "accepting_daa": 565553953,
+      "tx_index": 1
+    }
+  ],
+  "utxos": [
+    {
+      "outpoint": "9235ee5fa9eb4d6a1cce06f9edaf62d96f4d03fe69364b40b5e52b530e98a57e:0",
+      "created_daa": 565551957,
+      "live": false,
+      "value": 59720700,
+      "script_hex": "aa204f9461a9496a547d6119bb2633987cbd4faac610ffcd9d9bd4b0f4467d16964587",
+      "script_asm": [],
+      "state_fields": [
+        {
+          "name": "program_hash",
+          "value": "4f9461a9496a547d6119bb2633987cbd4faac610ffcd9d9bd4b0f4467d169645"
+        }
+      ],
+      "template": "p2sh commitment",
+      "uses_covenant_ops": false,
+      "uses_zk_ops": false,
+      "spent_txid": "33743ee5fc224aae3e01ced94f29c6ca3238d7dc4a3c92b8a2c49948cc575d4f",
+      "spent_budget": 10
+    },
+    {
+      "outpoint": "33743ee5fc224aae3e01ced94f29c6ca3238d7dc4a3c92b8a2c49948cc575d4f:0",
+      "created_daa": 565553953,
+      "live": true,
+      "value": 59530500,
+      "script_hex": "aa20f7aa243523032177a5737498c97534058a19308be17edf599f497820c81a167387",
+      "script_asm": [],
+      "state_fields": [
+        {
+          "name": "program_hash",
+          "value": "f7aa243523032177a5737498c97534058a19308be17edf599f497820c81a1673"
+        }
+      ],
+      "template": "p2sh commitment",
+      "uses_covenant_ops": false,
+      "uses_zk_ops": false,
+      "spent_txid": null,
+      "spent_budget": null
+    }
+  ]
+}

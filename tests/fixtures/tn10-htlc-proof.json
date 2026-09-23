@@ -1,0 +1,26 @@
+{
+  "app": "htlc",
+  "network": "testnet-10",
+  "explorer": "https://explorer-tn10.kaspa.org",
+  "funding_address": "kaspatest:qptv6u8kel95drh2p2z492cyksk8lpetep286fngqu5j9nk57g642lzf748kt",
+  "payment_hash": 1213484099,
+  "refund_daa": 566379189,
+  "steps": [
+    {
+      "step": "genesis",
+      "count": 0,
+      "txid": "5935cfacb0d04646fa6e70a9d6aae58a38f6a1dd214a8f0e8f1ab8b39f0d11f6",
+      "covenant_id": "867042d7826b9cfa526731a286278f9f39c4a3c9fc27232ec764045937ad3046",
+      "output_index": 0,
+      "explorer": "https://explorer-tn10.kaspa.org/txs/5935cfacb0d04646fa6e70a9d6aae58a38f6a1dd214a8f0e8f1ab8b39f0d11f6"
+    },
+    {
+      "step": "claim",
+      "count": 1,
+      "txid": "5220df286bda74981b9691b14c173963155cdb5d37e870e3e90e05df853e554f",
+      "covenant_id": "867042d7826b9cfa526731a286278f9f39c4a3c9fc27232ec764045937ad3046",
+      "output_index": 0,
+      "explorer": "https://explorer-tn10.kaspa.org/txs/5220df286bda74981b9691b14c173963155cdb5d37e870e3e90e05df853e554f"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "accepting_block_blue_score": 554601965,
+    "accepting_block_hash": "93b2c778b53b936ea1e00eabd4b24a88a1f483ec243121489de5aec8409eeaa5",
+    "accepting_block_time": 1788913974344,
+    "block_hash": [
+      "e5c1f0fd441cbcd3ed19488fa97c5657da761bef2a6feddcd4409e86aba9ea9d"
+    ],
+    "block_time": 1788913974131,
+    "hash": "867ad0d6336c6f1625b9cfed36598fb380e411d6b3ee4f384dddb951d8f97371",
+    "inputs": [
+      {
+        "compute_budget": 10,
+        "covenant_id": null,
+        "index": 0,
+        "previous_outpoint_address": null,
+        "previous_outpoint_amount": null,
+        "previous_outpoint_hash": "1afa10c429d73feb6a9aca1249357bb56b4eb2d6f548b977e9273fd83c381da0",
+        "previous_outpoint_index": "0",
+        "sig_op_count": null,
+        "signature_script": "41ec64d753cf8f04272cd7f299807b1c2dcf0631126fb4a641c99c9ea7837ac610ddec314bac0b42ec7a6f60b08133b37983c0c8298e5b6f129ab3e30d6c6b42b301",
+        "transaction_id": "9235ee5fa9eb4d6a1cce06f9edaf62d96f4d03fe69364b40b5e52b530e98a57e"
+      }
+    ],
+    "is_accepted": true,
+    "mass": "1671",
+    "outputs": [
+      {
+        "amount": 59720700,
+        "covenant_authorizing_input": 0,
+        "covenant_id": "86b0599327f2c2759a09ddbc3079551ca796199d23df6a6ffc0e6cf89e16786c",
+        "index": 0,
+        "script_public_key": "aa204f9461a9496a547d6119bb2633987cbd4faac610ffcd9d9bd4b0f4467d16964587",
+        "script_public_key_address": "kaspatest:pp8egcdff949gltprxajvvuc0j75l2kxzrlum8vm6jc0g3naz6ty2qae9gk30",
+        "script_public_key_type": "scripthash",
+        "transaction_id": "9235ee5fa9eb4d6a1cce06f9edaf62d96f4d03fe69364b40b5e52b530e98a57e"
+      }
+    ],
+    "payload": null,
+    "subnetwork_id": "0000000000000000000000000000000000000000",
+    "transaction_id": "9235ee5fa9eb4d6a1cce06f9edaf62d96f4d03fe69364b40b5e52b530e98a57e",
+    "version": 1
+  },
+  {
+    "accepting_block_blue_score": 554603961,
+    "accepting_block_hash": "677a8220efb7491d73b8dce474b68ed488faa118bc1aa8a8876f05d9448c430c",
+    "accepting_block_time": 1788914170633,
+    "block_hash": [
+      "d9b2797e02e6360db262669317a4c2e23be5315d22afd5ea5218e46d0ebd64c0"
+    ],
+    "block_time": 1788914170519,
+    "hash": "acdee8b9a25226242efbab92ec5e59b405030a57515be38445df49cd6e7e6296",
+    "inputs": [
+      {
+        "compute_budget": 10,
+        "covenant_id": "86b0599327f2c2759a09ddbc3079551ca796199d23df6a6ffc0e6cf89e16786c",
+        "index": 0,
+        "previous_outpoint_address": null,
+        "previous_outpoint_amount": null,
+        "previous_outpoint_hash": "9235ee5fa9eb4d6a1cce06f9edaf62d96f4d03fe69364b40b5e52b530e98a57e",
+        "previous_outpoint_index": "0",
+        "sig_op_count": null,
+        "signature_script": "041aabb5213d0100769169780498a3b521a269b9cb519c695151cd01017c7eb976c976013d9452937cbc7eaa02000001aa7e01207e7c7e01877eb900ccc38769757551",
+        "transaction_id": "33743ee5fc224aae3e01ced94f29c6ca3238d7dc4a3c92b8a2c49948cc575d4f"
+      }
+    ],
+    "is_accepted": true,
+    "mass": "1672",
+    "outputs": [
+      {
+        "amount": 59530500,
+        "covenant_authorizing_input": 0,
+        "covenant_id": "86b0599327f2c2759a09ddbc3079551ca796199d23df6a6ffc0e6cf89e16786c",
+        "index": 0,
+        "script_public_key": "aa20f7aa243523032177a5737498c97534058a19308be17edf599f497820c81a167387",
+        "script_public_key_address": "kaspatest:prm65fp4yvpjzaa9wd6f3jt4xszc5xfs30shah6enayhsgxgrgt8x2ckq5wmw",
+        "script_public_key_type": "scripthash",
+        "transaction_id": "33743ee5fc224aae3e01ced94f29c6ca3238d7dc4a3c92b8a2c49948cc575d4f"
+      }
+    ],
+    "payload": null,
+    "subnetwork_id": "0000000000000000000000000000000000000000",
+    "transaction_id": "33743ee5fc224aae3e01ced94f29c6ca3238d7dc4a3c92b8a2c49948cc575d4f",
+    "version": 1
+  }
+]

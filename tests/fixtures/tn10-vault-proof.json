@@ -1,0 +1,25 @@
+{
+  "app": "timelock_vault",
+  "network": "testnet-10",
+  "explorer": "https://explorer-tn10.kaspa.org",
+  "funding_address": "kaspatest:qptv6u8kel95drh2p2z492cyksk8lpetep286fngqu5j9nk57g642lzf748kt",
+  "steps": [
+    {
+      "step": "genesis",
+      "count": 0,
+      "txid": "9235ee5fa9eb4d6a1cce06f9edaf62d96f4d03fe69364b40b5e52b530e98a57e",
+      "covenant_id": "86b0599327f2c2759a09ddbc3079551ca796199d23df6a6ffc0e6cf89e16786c",
+      "output_index": 0,
+      "explorer": "https://explorer-tn10.kaspa.org/txs/9235ee5fa9eb4d6a1cce06f9edaf62d96f4d03fe69364b40b5e52b530e98a57e"
+    },
+    {
+      "step": "release",
+      "count": 1,
+      "txid": "33743ee5fc224aae3e01ced94f29c6ca3238d7dc4a3c92b8a2c49948cc575d4f",
+      "covenant_id": "86b0599327f2c2759a09ddbc3079551ca796199d23df6a6ffc0e6cf89e16786c",
+      "output_index": 0,
+      "explorer": "https://explorer-tn10.kaspa.org/txs/33743ee5fc224aae3e01ced94f29c6ca3238d7dc4a3c92b8a2c49948cc575d4f"
+    }
+  ],
+  "unlock_daa": 565552024
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "accepting_block_blue_score": 554607081,
+    "accepting_block_hash": "d00d67c46c94c132c0c84ee08bde5b5a3b9afda306578f52c7641b2dbabfad4b",
+    "accepting_block_time": 1788914479980,
+    "block_hash": [
+      "86a18ccbd5b0c3d6663a794c3f0eab78d2fce146e901cc800c9ed1ad286806c7"
+    ],
+    "block_time": 1788914479904,
+    "hash": "8a4a0fc6e4e8de11674e6a19b2a412495f88c94de9545e41816f10f21a94752e",
+    "inputs": [
+      {
+        "compute_budget": 10,
+        "covenant_id": null,
+        "index": 0,
+        "previous_outpoint_address": null,
+        "previous_outpoint_amount": null,
+        "previous_outpoint_hash": "3e3c9cad70dc0f04add8ed68da2a0626e5fd9142b9c2fc943fba69a5032be783",
+        "previous_outpoint_index": "1",
+        "sig_op_count": null,
+        "signature_script": "411344022443f8de1a27328ef79921bfc44824d375215638d60f493b426009390242959b4cf2f02f287058ec050641f1e476a1a3be2d7d7e9075928012acff005701",
+        "transaction_id": "0039d188417b73150055e657f40fbffa37cdc9da43041441dcbc82cd773ef9f3"
+      },
+      {
+        "compute_budget": 10,
+        "covenant_id": null,
+        "index": 1,
+        "previous_outpoint_address": null,
+        "previous_outpoint_amount": null,
+        "previous_outpoint_hash": "a413b350db5cb65fd168137b7f3bd828eee70399cf632e9dfa8ec6f57218d779",
+        "previous_outpoint_index": "1",
+        "sig_op_count": null,
+        "signature_script": "417aaa0e8348b32e89c3f18345f25e5a9ab176ee440d4a17969a6ee627029a8c0266883b3a3dec3aa255c36d52956e5ba842bfff89a4a73842ea1aac3e6c17ced801",
+        "transaction_id": "0039d188417b73150055e657f40fbffa37cdc9da43041441dcbc82cd773ef9f3"
+      }
+    ],
+    "is_accepted": true,
+    "mass": "2791",
+    "outputs": [
+      {
+        "amount": 54748950,
+        "covenant_authorizing_input": 0,
+        "covenant_id": "174516ea5bfe5597fcef9fe1425729b9dc1b8c08f426974658611ac39ca6532a",
+        "index": 0,
+        "script_public_key": "aa20f5a3bdce65e38d8b4c885cada320fc35e5c1ce34e51403071108313e878d6abf87",
+        "script_public_key_address": "kaspatest:pr6680wwvh3cmz6v3pw2mgeqls67tswwxnj3gqc8zyyrz058344t7uj9dylk7",
+        "script_public_key_type": "scripthash",
+        "transaction_id": "0039d188417b73150055e657f40fbffa37cdc9da43041441dcbc82cd773ef9f3"
+      }
+    ],
+    "payload": null,
+    "subnetwork_id": "0000000000000000000000000000000000000000",
+    "transaction_id": "0039d188417b73150055e657f40fbffa37cdc9da43041441dcbc82cd773ef9f3",
+    "version": 1
+  },
+  {
+    "accepting_block_blue_score": 554607094,
+    "accepting_block_hash": "ba47b9a3cdf3d04f64d398be2041f73886bdb53a3fa845f16dc72cae3f0d70f6",
+    "accepting_block_time": 1788914481387,
+    "block_hash": [
+      "e1d0dcfdbcdf28a56c72a990899127994197959fce31356a6f14bfeac9194a55"
+    ],
+    "block_time": 1788914481018,
+    "hash": "ff54f8803bffd602670dcfbc4a4bf11b829b274208c52422a0db87d82d2933be",
+    "inputs": [
+      {
+        "compute_budget": 10,
+        "covenant_id": "174516ea5bfe5597fcef9fe1425729b9dc1b8c08f426974658611ac39ca6532a",
+        "index": 0,
+        "previous_outpoint_address": null,
+        "previous_outpoint_amount": null,
+        "previous_outpoint_hash": "0039d188417b73150055e657f40fbffa37cdc9da43041441dcbc82cd773ef9f3",
+        "previous_outpoint_index": "0",
+        "sig_op_count": null,
+        "signature_script": "04504157533d01007691697804504157539c69b9cb519c695151cd01017c7eb976c976013d9452937cbc7eaa02000001aa7e01207e7c7e01877eb900ccc38769757551",
+        "transaction_id": "9dbb658daab4dab916f047871c74508b653d2e4c37aeb6e34ab1a2a9b049a8ae"
+      }
+    ],
+    "is_accepted": true,
+    "mass": "1672",
+    "outputs": [
+      {
+        "amount": 54558750,
+        "covenant_authorizing_input": 0,
+        "covenant_id": "174516ea5bfe5597fcef9fe1425729b9dc1b8c08f426974658611ac39ca6532a",
+        "index": 0,
+        "script_public_key": "aa209fb8739decb0eef36992b4a76b252618aa4728e275a87d2093e98fc937c562ff87",
+        "script_public_key_address": "kaspatest:pz0msuuaajcwaumfj262w6e9ycv253eguf66slfqj05cljfhc43076pf05t6x",
+        "script_public_key_type": "scripthash",
+        "transaction_id": "9dbb658daab4dab916f047871c74508b653d2e4c37aeb6e34ab1a2a9b049a8ae"
+      }
+    ],
+    "payload": null,
+    "subnetwork_id": "0000000000000000000000000000000000000000",
+    "transaction_id": "9dbb658daab4dab916f047871c74508b653d2e4c37aeb6e34ab1a2a9b049a8ae",
+    "version": 1
+  }
+]

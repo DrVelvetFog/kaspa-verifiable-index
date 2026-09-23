@@ -1,0 +1,25 @@
+{
+  "app": "restricted_swap",
+  "network": "testnet-10",
+  "explorer": "https://explorer-tn10.kaspa.org",
+  "funding_address": "kaspatest:qptv6u8kel95drh2p2z492cyksk8lpetep286fngqu5j9nk57g642lzf748kt",
+  "allowed_recipient_hash": 1398227280,
+  "steps": [
+    {
+      "step": "genesis",
+      "count": 0,
+      "txid": "0039d188417b73150055e657f40fbffa37cdc9da43041441dcbc82cd773ef9f3",
+      "covenant_id": "174516ea5bfe5597fcef9fe1425729b9dc1b8c08f426974658611ac39ca6532a",
+      "output_index": 0,
+      "explorer": "https://explorer-tn10.kaspa.org/txs/0039d188417b73150055e657f40fbffa37cdc9da43041441dcbc82cd773ef9f3"
+    },
+    {
+      "step": "swap",
+      "count": 1,
+      "txid": "9dbb658daab4dab916f047871c74508b653d2e4c37aeb6e34ab1a2a9b049a8ae",
+      "covenant_id": "174516ea5bfe5597fcef9fe1425729b9dc1b8c08f426974658611ac39ca6532a",
+      "output_index": 0,
+      "explorer": "https://explorer-tn10.kaspa.org/txs/9dbb658daab4dab916f047871c74508b653d2e4c37aeb6e34ab1a2a9b049a8ae"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "network": "testnet-10",
+  "explorer": "https://explorer-tn10.kaspa.org",
+  "funding_address": "kaspatest:qptv6u8kel95drh2p2z492cyksk8lpetep286fngqu5j9nk57g642lzf748kt",
+  "steps": [
+    {
+      "step": "genesis",
+      "count": 0,
+      "txid": "6d0acd6fcbaf68bca1568a3cbbafe0f3c1d72c4f6ea0edc6f6c013a59cb5d591",
+      "covenant_id": "4a95a59dc79c3f46f35db91453f26785750450606836d82c48c1affdd71ed70a",
+      "explorer": "https://explorer-tn10.kaspa.org/txs/6d0acd6fcbaf68bca1568a3cbbafe0f3c1d72c4f6ea0edc6f6c013a59cb5d591",
+      "output_index": 0
+    },
+    {
+      "step": "add(5)",
+      "count": 5,
+      "txid": "796445b99363dee7540d7dd75287c5a980d110bab007cee8d913ae254541410d",
+      "covenant_id": "4a95a59dc79c3f46f35db91453f26785750450606836d82c48c1affdd71ed70a",
+      "explorer": "https://explorer-tn10.kaspa.org/txs/796445b99363dee7540d7dd75287c5a980d110bab007cee8d913ae254541410d",
+      "output_index": 0
+    },
+    {
+      "step": "subtract(3)",
+      "count": 2,
+      "txid": "480fc61819f73dc476cbc5b12fb974bd711457f07e4d07b074ca19bdb77a5dcd",
+      "covenant_id": "4a95a59dc79c3f46f35db91453f26785750450606836d82c48c1affdd71ed70a",
+      "explorer": "https://explorer-tn10.kaspa.org/txs/480fc61819f73dc476cbc5b12fb974bd711457f07e4d07b074ca19bdb77a5dcd",
+      "output_index": 0
+    }
+  ]
+}

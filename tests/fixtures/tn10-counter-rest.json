@@ -1,0 +1,68 @@
+[
+  {
+    "inputs": [
+      {
+        "compute_budget": 10,
+        "covenant_id": null,
+        "previous_outpoint_hash": "12e52bdcbbd4e18302956eccbf8be25e0d3001693f66ca16c8c8c310514d1d70",
+        "previous_outpoint_index": "0"
+      }
+    ],
+    "is_accepted": true,
+    "mass": "1671",
+    "outputs": [
+      {
+        "amount": 198363600,
+        "covenant_authorizing_input": 0,
+        "covenant_id": "4a95a59dc79c3f46f35db91453f26785750450606836d82c48c1affdd71ed70a",
+        "script_public_key_type": "scripthash"
+      }
+    ],
+    "transaction_id": "6d0acd6fcbaf68bca1568a3cbbafe0f3c1d72c4f6ea0edc6f6c013a59cb5d591",
+    "version": 1
+  },
+  {
+    "inputs": [
+      {
+        "compute_budget": 10,
+        "covenant_id": "4a95a59dc79c3f46f35db91453f26785750450606836d82c48c1affdd71ed70a",
+        "previous_outpoint_hash": "6d0acd6fcbaf68bca1568a3cbbafe0f3c1d72c4f6ea0edc6f6c013a59cb5d591",
+        "previous_outpoint_index": "0"
+      }
+    ],
+    "is_accepted": true,
+    "mass": "1781",
+    "outputs": [
+      {
+        "amount": 198162500,
+        "covenant_authorizing_input": 0,
+        "covenant_id": "4a95a59dc79c3f46f35db91453f26785750450606836d82c48c1affdd71ed70a",
+        "script_public_key_type": "scripthash"
+      }
+    ],
+    "transaction_id": "796445b99363dee7540d7dd75287c5a980d110bab007cee8d913ae254541410d",
+    "version": 1
+  },
+  {
+    "inputs": [
+      {
+        "compute_budget": 10,
+        "covenant_id": "4a95a59dc79c3f46f35db91453f26785750450606836d82c48c1affdd71ed70a",
+        "previous_outpoint_hash": "796445b99363dee7540d7dd75287c5a980d110bab007cee8d913ae254541410d",
+        "previous_outpoint_index": "0"
+      }
+    ],
+    "is_accepted": true,
+    "mass": "1781",
+    "outputs": [
+      {
+        "amount": 197961400,
+        "covenant_authorizing_input": 0,
+        "covenant_id": "4a95a59dc79c3f46f35db91453f26785750450606836d82c48c1affdd71ed70a",
+        "script_public_key_type": "scripthash"
+      }
+    ],
+    "transaction_id": "480fc61819f73dc476cbc5b12fb974bd711457f07e4d07b074ca19bdb77a5dcd",
+    "version": 1
+  }
+]
