@@ -46,9 +46,10 @@ def live_utxos_from_node_truth(transactions: list[dict], covenant_id: str) -> li
     for tx in transactions:
         if not tx.get("is_accepted", False):
             continue  # rejected txs never touch the UTXO set
-        for inp in tx.get("inputs", []):
+        # Live REST returns inputs: null for coinbase (not []), so coalesce.
+        for inp in (tx.get("inputs") or []):
             consumed.add(_outpoint(inp["previous_outpoint_hash"], int(inp["previous_outpoint_index"])))
-        for idx, out in enumerate(tx.get("outputs", [])):
+        for idx, out in enumerate(tx.get("outputs") or []):
             if out.get("covenant_id") != covenant_id:
                 continue
             op = _outpoint(tx["transaction_id"], idx)

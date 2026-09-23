@@ -87,6 +87,42 @@ alerts on both (a documented negative-control test). Calibrate it against how ma
 blocks the watched indexer normally trails. This v0 is driven by replayed sequences;
 the live-node feed is the next piece.
 
+## Live feed & calibration
+
+`feed.py` pulls node truth from the Kaspa REST API (`api.kaspa.org` /
+`api-tn10.kaspa.org`). The REST `full-transactions` shape is the same one the engine
+consumes — outputs carry `covenant_id`, inputs carry `previous_outpoint_hash` /
+`previous_outpoint_index` — so live data drops straight in. There is no covenant
+endpoint (rusty-kaspa#1128), so a covenant's node truth is reconstructed from its
+holding addresses' transactions.
+
+```bash
+PYTHONPATH=src python -m kaspa_verifiable_index.feed            # live smoke on mainnet
+```
+
+`calibrate.py` turns observed lag into a `persist_window`: the longest divergence run
+that self-healed (= indexer lag), plus a margin. An unresolved run at the series end
+is a possible drain, not lag, and never inflates the window.
+
+```python
+recommend_persist_window(diverged_series)   # -> Calibration(recommended_window=…, note=…)
+```
+
+**What's live and what's blocked (honest).** The node-truth feed is real: the smoke
+pulls live mainnet state and reconstructs covenant state from the same fields the
+tests use. Two things gate an *end-to-end live covenant watch*, and neither is a code
+problem:
+
+- **Live covenant activity is rare.** A recent-window scan of mainnet finds no
+  covenant outputs today; testnet-10 was reset, so the rehearsal covenants are gone.
+- **No public covenant-queryable indexer.** `kascov`'s data API isn't public and
+  KaspaCom's serves KRC-721, not covenants — so there is nothing to cross-check against
+  yet, which means real indexer-lag can't be measured to set `persist_window`.
+
+The watchtower's brain (check, persistence gate, calibration) and its node-truth eye
+are done and tested; it lights up the moment there's a live covenant and one indexer
+to compare against.
+
 ## Scope & honesty
 
 - **Node truth here is a REST/replay snapshot.** In production the same replay
