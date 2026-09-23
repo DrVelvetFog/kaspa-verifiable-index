@@ -60,6 +60,33 @@ Negative controls reproduce the drain shape — a spent UTXO claimed live, an
 omitted live UTXO, inflated value, incomplete lineage — and each must fail
 closed.
 
+## Watchdog (v0)
+
+`watch.py` runs the check continuously and fires only when a divergence *persists*.
+A live indexer legitimately lags the node by a few blocks, so a single disagreement
+is not yet an alarm — lag and an attack look identical in one snapshot. The
+discriminator is time: lag self-heals within a few cycles; a drain (inflated or
+forged state) never reconciles, because node truth never catches up to it.
+
+```python
+from kaspa_verifiable_index import CovenantWatcher, Snapshot, run_watch
+
+w = CovenantWatcher(persist_window=3)   # calibrate to the indexer's normal lag
+for snap in feed:                       # a poller in production; a sequence in tests
+    event = w.observe(snap)
+    if event:                           # "alert" (persistent divergence) or "cleared"
+        notify(event)                   # observe-only: never touches funds or the chain
+```
+
+```bash
+PYTHONPATH=src python -m kaspa_verifiable_index.watch   # lag (no alert) + drain (one alert) demo
+```
+
+`persist_window` is the whole design: a window of 1 can't tell lag from a drain and
+alerts on both (a documented negative-control test). Calibrate it against how many
+blocks the watched indexer normally trails. This v0 is driven by replayed sequences;
+the live-node feed is the next piece.
+
 ## Scope & honesty
 
 - **Node truth here is a REST/replay snapshot.** In production the same replay
