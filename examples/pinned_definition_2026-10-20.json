@@ -1,0 +1,1112 @@
+{
+  "pinned_definition": "count = recognized templates + single-output covenants checkable against the node; inscriptions out; unknown script-hash bucket on its own line",
+  "census_at": "2026-10-20T11:32:29Z",
+  "checked_at": "2026-10-20T11:33:06Z",
+  "kaspacom_total": {
+    "covenants": 8619,
+    "activeUtxos": 23641
+  },
+  "LINE1_counted_covenants": {
+    "definition": "recognized templates + single-output covenants with canonical covenant IDs; every one checked against node truth at its address (P2SH address == locking script), fail closed",
+    "in_slice_at_census": 2334,
+    "recognized": {
+      "exact": 2
+    },
+    "single_canonical": {
+      "exact": 1165,
+      "shared_script_aggregate_diverges": 1108,
+      "shared_script_aggregate_ok": 55,
+      "gone_at_check": 4
+    },
+    "node_verified_exact": 1167,
+    "verified_kas_exact_only": 1235156.45475927
+  },
+  "LINE2_inscriptions_excluded": {
+    "covenants": 724,
+    "activeUtxos": 811,
+    "sompi": 757186288920,
+    "protocols": {
+      "KRC-721": 464,
+      "KRC-20": 59,
+      "KNS": 201
+    }
+  },
+  "LINE3_scripthash_bucket": {
+    "definition": "covenants with NO canonical covenant ID (identitySource=scriptHashFallback) \u2014 own line, never folded into line 1",
+    "single_output": {
+      "in_slice_at_census": 5021,
+      "exact": 4940,
+      "mismatch": 51,
+      "shared_script_aggregate_ok": 7,
+      "gone_at_check": 16,
+      "shared_script_aggregate_diverges": 7,
+      "verified_kas_exact_only": 6827166.04487883
+    },
+    "multi_output_not_checked_per_covenant": {
+      "covenants": 441,
+      "activeUtxos": 4081,
+      "sompi": 6289900204963289
+    }
+  },
+  "REMAINDER_multi_output_canonical_not_checked_per_covenant": {
+    "covenants": 99,
+    "activeUtxos": 11394,
+    "sompi": 1078407215606
+  },
+  "shared_script_addresses": {
+    "kaspa:ppvnxxzm0rr37zpnwux2f2ntvfpr4uqdpm7zsvsztg3en92r7gs0wkmr72q9n": {
+      "tenants": 1105,
+      "claim": {
+        "utxos": 2015,
+        "sompi": 1204934939928776
+      },
+      "node": {
+        "utxos": 3050,
+        "sompi": 2174342159901094
+      },
+      "ok": false
+    },
+    "kaspa:ppq25555vz6nchjxjptt2hm8npuu24k3n0ce98asus05k9vfuf85yzt20fa7e": {
+      "tenants": 16,
+      "claim": {
+        "utxos": 16,
+        "sompi": 112617705000000
+      },
+      "node": {
+        "utxos": 16,
+        "sompi": 112617705000000
+      },
+      "ok": true
+    },
+    "kaspa:ppg0wcw4a8427laxvn5nylsakrlxquf7cjj096usayw6srrcu0wczxv8078l4": {
+      "tenants": 7,
+      "claim": {
+        "utxos": 7,
+        "sompi": 700000000
+      },
+      "node": {
+        "utxos": 7,
+        "sompi": 700000000
+      },
+      "ok": true
+    },
+    "kaspa:pz90fld6xr95v4fghf9he36fqdylphah08km9sv53mq73j88h3zu2xqfx86d5": {
+      "tenants": 4,
+      "claim": {
+        "utxos": 4,
+        "sompi": 89181195
+      },
+      "node": {
+        "utxos": 4,
+        "sompi": 89181195
+      },
+      "ok": true
+    },
+    "kaspa:pzj0sntud9eul2ynay8fx3efl43fvf7pt8034qmt6hyf3qcfjvjpxde6agteu": {
+      "tenants": 3,
+      "claim": {
+        "utxos": 3,
+        "sompi": 110000000
+      },
+      "node": {
+        "utxos": 3,
+        "sompi": 110000000
+      },
+      "ok": true
+    },
+    "kaspa:prc0897km55n726w4dxl3gq936r668nhgw72htdq655ymv5f96fjsuzddhwrr": {
+      "tenants": 3,
+      "claim": {
+        "utxos": 3,
+        "sompi": 204384780
+      },
+      "node": {
+        "utxos": 1,
+        "sompi": 1184460
+      },
+      "ok": false
+    },
+    "kaspa:ppef0jhz8fqrm3wtxl6796yn4aqhsm5w3sd2qh4y067acxzjrusn6l6mg7kfn": {
+      "tenants": 2,
+      "claim": {
+        "utxos": 2,
+        "sompi": 390392600
+      },
+      "node": {
+        "utxos": 2,
+        "sompi": 390392600
+      },
+      "ok": true
+    },
+    "kaspa:pqxjm78tdw9dd75f4tyf0qh0wg68su43dx8j0g7ey9dr26ty0xj7x2g76tef9": {
+      "tenants": 2,
+      "claim": {
+        "utxos": 2,
+        "sompi": 40000000
+      },
+      "node": {
+        "utxos": 2,
+        "sompi": 40000000
+      },
+      "ok": true
+    },
+    "kaspa:ppmmezmxdwydk3y74mt5ptlzda6d4vjh3m5fm2vg5macgrhav4qc2n348qw8w": {
+      "tenants": 2,
+      "claim": {
+        "utxos": 2,
+        "sompi": 400000000
+      },
+      "node": {
+        "utxos": 2,
+        "sompi": 400000000
+      },
+      "ok": true
+    },
+    "kaspa:pqj0m0g7yjg298gwu5k38jff2njg0cqu7fn7hfm9dungwjdjthqa7ymjw9wuz": {
+      "tenants": 2,
+      "claim": {
+        "utxos": 2,
+        "sompi": 24382481512560
+      },
+      "node": {
+        "utxos": 2,
+        "sompi": 24382481512560
+      },
+      "ok": true
+    }
+  },
+  "shared_script_addresses_total": 27,
+  "divergences": {
+    "single_canonical": [
+      {
+        "cid": "d3ce38fd34538ffc22d387144e623f4d1057e0f2aa9e03206a4fb9c05b16c03c",
+        "addr": "kaspa:pq9uj68dzp2f9tlxxg8uurgx7lgn77dpd985qs6vwh6ayx4gv90c7s6v5j4uf",
+        "claim": {
+          "utxos": 1,
+          "sompi": 7242475800
+        },
+        "node": {
+          "utxos": 0,
+          "sompi": 0
+        },
+        "why": "address empty at check time"
+      },
+      {
+        "cid": "fe14a46cb125e0409333f28b76bbb42ade5da83d82913a3ec10bd1f3df9705d8",
+        "addr": "kaspa:pzm7458tjm9k7mqaej63xge7uhd0jedf6p3t7c8vslrtx2pqku06q28sqgrqf",
+        "claim": {
+          "utxos": 1,
+          "sompi": 4559810000
+        },
+        "node": {
+          "utxos": 0,
+          "sompi": 0
+        },
+        "why": "address empty at check time"
+      },
+      {
+        "cid": "5340bc885462b5a3daea277c641e4a8172213092e1d50630f8aebaf9bcc9524f",
+        "addr": "kaspa:prsr3hnvha2jj5q63fdfdcl4pgev2l53fqz9kxxy2sf02a9y6j7gu23nf0pk2",
+        "claim": {
+          "utxos": 1,
+          "sompi": 129865320
+        },
+        "node": {
+          "utxos": 0,
+          "sompi": 0
+        },
+        "why": "address empty at check time"
+      },
+      {
+        "cid": "1c5a64c9aa537ab09003bb425fee57480c6a7444ffc52f419bad828eb135b5d5",
+        "addr": "kaspa:pr4jh8a8zf2p4z76g53fdxu5mwnq53pqtk90c3wwt8rnmhgxne3uvjp25apgd",
+        "claim": {
+          "utxos": 1,
+          "sompi": 192776460
+        },
+        "node": {
+          "utxos": 0,
+          "sompi": 0
+        },
+        "why": "address empty at check time"
+      }
+    ],
+    "single_fallback": [
+      {
+        "cid": "4d129524e4d6c08cef9fed93448a66def371c5833815e042a994a05e2080a580",
+        "addr": "kaspa:ppx399fyuntvpr80nlkex3y2vm00xuw9svuptczz4x22qh3qszjcq8krg7ylt",
+        "claim": {
+          "utxos": 1,
+          "sompi": 105000000
+        },
+        "node": {
+          "utxos": 19,
+          "sompi": 1905111566
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "4861d3d0a5b112b742c14ddcfcb8a52102a23346b6bafd842252ecb45afeb2b4",
+        "addr": "kaspa:ppyxr57s5kc39d6zc9xael9c55ss9g3ng6mt4lvyyffwedz6l6etgvvlpq7nl",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200004793
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 300008661
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "c7f46c16d2fab32c7bfd9279848e72504a8e01269573fc1644edc0d3cca18312",
+        "addr": "kaspa:prrlgmqk6tatxtrmlkf8npywwfgy4rspy62h8lqkgnkup57v5xp3yedwmptnt",
+        "claim": {
+          "utxos": 1,
+          "sompi": 1600000000
+        },
+        "node": {
+          "utxos": 0,
+          "sompi": 0
+        },
+        "why": "address empty at check time"
+      },
+      {
+        "cid": "cc3774b1513cbf58791d16934bb1ecce13457813746788fffec8d256ac803c28",
+        "addr": "kaspa:prxrwa932y7t7krer5tfxja3an8px3tczd6x0z8llmydy44vsq7zsfsutd3w4",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200009546
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 300015460
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "c831e32472a12d196d8ca7b8c0c6e4168c3758d823b4e307ccc5a22d8cdb5efc",
+        "addr": "kaspa:pryrrceyw2sj6xtd3jnm3sxxustgcd6cmq3mfcc8enz6ytvvmd00csp8gqz52",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200006618
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 300011385
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "23933f94eb6ac2fe2f972e1c6cc08fff39dc660006f16b9a719b44662fde9ae4",
+        "addr": "kaspa:pq3ex0u5ad4v9l30juhpcmxq3llnnhrxqqr0z6u6wxd5ge30m6dwgpqprp439",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200009518
+        },
+        "node": {
+          "utxos": 3,
+          "sompi": 400022932
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "50dd99b43f5506e05ea416a6536e4b8ef9df6b9689b3397743a8528bcf575338",
+        "addr": "kaspa:ppgdmxd58a2sdcz75st2v5mwfw80nhmtj6ymxwthgw599z702afnsgu68rppk",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200007418
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 305005348
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "876c17a9ca651a58f5debc7e8701acb0468a443f4c13755210044783045aaca5",
+        "addr": "kaspa:pzrkc9afefj35k84m678apcp4jcydzjy8axpxa2jzqzy0qcyt2k227dj348yg",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200002691
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 300005026
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "46e2c585a35d947d1e7f2a89e0161a3730ba56d4faa2320debec7017077a18d4",
+        "addr": "kaspa:pprw93v95dweglg70u4gncqkrgmnpwjk6na2yvsda0k8q9c80gvdg5r2zplv7",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200008922
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 300016391
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "e7f46fdb1cece46f48fd98666c9c4690a30c7ba244f879941fb962ffedef4f2e",
+        "addr": "kaspa:prnlgm7mrnkwgm6glkvxvmyug6g2xrrm5fz0s7v5r7uk9lldaa8jux3ea65el",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200001855
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 300008176
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "814f4ec2734c61314fb92b28c26162628bd6563b56f2500ea911272d51264f24",
+        "addr": "kaspa:pzq57nkzwdxxzv20hy4j3snpvf3gh4jk8dt0y5qw4ygjwt23ye8jgmnnm7hka",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200008391
+        },
+        "node": {
+          "utxos": 4,
+          "sompi": 500026762
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "531deb40e708e7cacf09f85322afebc45bb7fde0f25b05bf891443224a56c1ac",
+        "addr": "kaspa:ppf3m66quuyw0jk0p8u9xg40a0z9hdlaure9kpdl3y2yxgj22mq6cdxcy7xhr",
+        "claim": {
+          "utxos": 1,
+          "sompi": 195321480
+        },
+        "node": {
+          "utxos": 0,
+          "sompi": 0
+        },
+        "why": "address empty at check time"
+      },
+      {
+        "cid": "449e74344d00d62976120b354e9ce8c7eb357693505dc870fb38db2d9fc3f401",
+        "addr": "kaspa:ppzfuap5f5qdv2tkzg9n2n5uarr7kdtkjdg9mjrslvudktvlc06qzvu4df4pa",
+        "claim": {
+          "utxos": 1,
+          "sompi": 190858560
+        },
+        "node": {
+          "utxos": 0,
+          "sompi": 0
+        },
+        "why": "address empty at check time"
+      },
+      {
+        "cid": "99ac13c1adaf037a3dd288c0eef1aab8c73a963ca2541f4aea972804f149d292",
+        "addr": "kaspa:pzv6cy7p4khsx73a62yvpmh342uvww5k8j39g862a2tjsp83f8ffyuzxmvrvn",
+        "claim": {
+          "utxos": 1,
+          "sompi": 435563260
+        },
+        "node": {
+          "utxos": 0,
+          "sompi": 0
+        },
+        "why": "address empty at check time"
+      },
+      {
+        "cid": "2a11023de11dee2d3a132df20546193d4686501cdb63ed104491be1dd0602285",
+        "addr": "kaspa:pq4pzq3auyw7utf6zvklyp2xry75dpjsrndk8mgsgjgmu8wsvq3g2tly20f5l",
+        "claim": {
+          "utxos": 1,
+          "sompi": 599163260
+        },
+        "node": {
+          "utxos": 0,
+          "sompi": 0
+        },
+        "why": "address empty at check time"
+      },
+      {
+        "cid": "f7997f4a8363c43a828ceee222b1a28abf8a3016d6b64170d5602dcc199610b8",
+        "addr": "kaspa:prmejl62sd3ugw5z3nhwyg43529tlz3szmttvsts64szmnqejcgts5h3ct7gs",
+        "claim": {
+          "utxos": 1,
+          "sompi": 764843260
+        },
+        "node": {
+          "utxos": 0,
+          "sompi": 0
+        },
+        "why": "address empty at check time"
+      },
+      {
+        "cid": "31ba6716dd4271c4c3c84f2c8eecd4958067bda2a6474f9665103c8de1185dea",
+        "addr": "kaspa:pqcm5eckm4p8r3xrep8jerhv6j2cqeaa52nywnukv5grer0prpw75639n55nc",
+        "claim": {
+          "utxos": 1,
+          "sompi": 380180000
+        },
+        "node": {
+          "utxos": 0,
+          "sompi": 0
+        },
+        "why": "address empty at check time"
+      },
+      {
+        "cid": "1be9e8c2d63c454605c01d275affbd57534c8c7fc9cdea2080bcb392fa60421b",
+        "addr": "kaspa:pqd7n6xz6c7y23s9cqwjwkhlh4t4xnyv0lyum63qsz7t8yh6vpppkadnyjugz",
+        "claim": {
+          "utxos": 1,
+          "sompi": 530460000
+        },
+        "node": {
+          "utxos": 0,
+          "sompi": 0
+        },
+        "why": "address empty at check time"
+      },
+      {
+        "cid": "fc4e1fc047cd00d44dba3f1ba02de3d1d65938ab6a7f7aa369eb95983337b022",
+        "addr": "kaspa:pr7yu87qglxsp4zdhgl3hgpdu0gavkfc4d48774rd84etxpnx7czyz9l4zrcd",
+        "claim": {
+          "utxos": 1,
+          "sompi": 533840000
+        },
+        "node": {
+          "utxos": 0,
+          "sompi": 0
+        },
+        "why": "address empty at check time"
+      },
+      {
+        "cid": "2971b538f73460238393ecc09f3592e8e1464582f403c85397579cef3eb6d6e2",
+        "addr": "kaspa:pq5hrdfc7u6xqgurj0kvp8e4jt5wz3j9st6q8jznjateeme7kmtwy4r8amea3",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200002974
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 300011832
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "592a956337a5b6c4f7076bdd972de9cbe36fc320eaf85630b6a440b8f9564d94",
+        "addr": "kaspa:ppvj49trx7jmd38hqa4am9eda897xm7ryr40s43sk6jypw8e2exeg9vf74krs",
+        "claim": {
+          "utxos": 1,
+          "sompi": 105000000
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 205002484
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "a4e94e4492b814dfe6c65f6b8bb387f33678aa6ee45b5c3c24dece01a834dd1b",
+        "addr": "kaspa:pzjwjnjyj2upfhlxce0khzanslenv792dmj9khpuyn0vuqdgxnw3kswjhujj7",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200001368
+        },
+        "node": {
+          "utxos": 4,
+          "sompi": 500019469
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "4fc00ddae095804c1274e63265f6329badb6a7b972f54b90fa69d9863aef75cf",
+        "addr": "kaspa:pp8uqrw6uz2cqnqjwnnrye0kx2d6md48h9e02juslf5anp36aa6u73lvck2wh",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200003314
+        },
+        "node": {
+          "utxos": 10,
+          "sompi": 1100049839
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "fe3f269c70d6f140ea821969baa2236f8f8c8a56707f7d3407cd02e49f42a1a9",
+        "addr": "kaspa:prlr7f5uwrt0zs82sgvknw4zydhclry22ec87lf5qlxs9eylg2s6j5t5kvmfr",
+        "claim": {
+          "utxos": 1,
+          "sompi": 105000000
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 204997887
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "7761d353fced31f159cc8c1303c239c8fefc3482c298d8526cbe267b4a29f774",
+        "addr": "kaspa:ppmkr56nlnknru2eejxpxq7z88y0alp5stpf3kzjdjlzv76298mhg5zj679c9",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200009678
+        },
+        "node": {
+          "utxos": 4,
+          "sompi": 500024257
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "18e6ed7a6b4d92c9b619f58dd08ee14feb447e64977cd8e831ff40f2142060d1",
+        "addr": "kaspa:pqvwdmt6ddxe9jdkr86cm5ywu987k3r7vjthek8gx8l5pus5ypsdze6t7tgvf",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200000000
+        },
+        "node": {
+          "utxos": 0,
+          "sompi": 0
+        },
+        "why": "address empty at check time"
+      },
+      {
+        "cid": "ff09d1e15b6c55e75b291f948724677e2030c9edb77ca6ef6278c9990e0012ed",
+        "addr": "kaspa:prlsn50ptdk9te6m9y0efpeyvalzqvxfakmhefh0vfuvnxgwqqfw68shfgd0c",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200009389
+        },
+        "node": {
+          "utxos": 3,
+          "sompi": 400022642
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "d1a20bb58300d62e8c83dae6d1dbcaa18a4fd2eb298c006bd4f10451e539e0c8",
+        "addr": "kaspa:prg6yza4svqdvt5vs0dwd5wme2sc5n7jav5ccqrt6ncsg50988svsrlzsd0gp",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200009986
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 300015314
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "1aa6a1028d00de5ca1c461716aeb285b555d0674fa43fcfcb544a8a535b09ba7",
+        "addr": "kaspa:pqd2dggz35qduh9pc3shz6ht9pd42hgxwnay8l8uk4z23ff4kzd6wh4tfgkka",
+        "claim": {
+          "utxos": 1,
+          "sompi": 105000000
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 209997929
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "0d180a63d5c15015dd4a4a3e7c4e92f32e651033f03e9639d3d4b6c864b5bfa5",
+        "addr": "kaspa:pqx3sznr6hq4q9waff9rulzwjtejuegsx0cra93e602tdjrykkl62rkygfpu7",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200003557
+        },
+        "node": {
+          "utxos": 3,
+          "sompi": 400020944
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "b6269cfc033a8fc15be8b48c78ceb030cd33b809a6120b2eb56e878230d03c1c",
+        "addr": "kaspa:pzmzd88uqvagls2maz6gc7xwkqcv6vacpxnpyzewk4hg0q3s6q7pc9yc4v2g4",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200004782
+        },
+        "node": {
+          "utxos": 10,
+          "sompi": 1100059034
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "93b9c74e7c2a26587fbb0ad61a8d07eeddf68735fd656065373b1bbcae6924c2",
+        "addr": "kaspa:pzfmn36w0s4zvkrlhv9dvx5dqlhdma58xh7k2cr9xua3h09wdyjvy2n0527nj",
+        "claim": {
+          "utxos": 1,
+          "sompi": 105000000
+        },
+        "node": {
+          "utxos": 9,
+          "sompi": 905047740
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "7708b7fce12fcf0befd922464f32cf277089516bf359bec0868db1c5e04fc162",
+        "addr": "kaspa:ppms3dluuyhu7zl0my3yvnejeunhpz23d0e4n0kqs6xmr30qflqky57e0gmz2",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200008145
+        },
+        "node": {
+          "utxos": 4,
+          "sompi": 500022642
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "6d15f034afa27d2e0959eed34101776ffb529183aba747425390b95bc73240dc",
+        "addr": "kaspa:ppk3tup547386tsft8hdxsgpwahlk553sw46w36z2wgtjk78xfqdck4zvmpr4",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200009566
+        },
+        "node": {
+          "utxos": 6,
+          "sompi": 700034048
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "02bdb5b027b045e403e1e52709b5b22324d7ab9f9e08bb1f7424c5bd736097ff",
+        "addr": "kaspa:pqptmddsy7cyteqru8jjwzd4kg3jf4atn70q3wclwsjvt0tnvztl7dgu08y8n",
+        "claim": {
+          "utxos": 1,
+          "sompi": 50000000
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 100000000
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "a98e6f0bbee1c6636f244e387fbba2f2a9dc03b80fa75ffb7b2febaddd8ca00e",
+        "addr": "kaspa:pz5cumcthmsuvcm0y38rslam5te2nhqrhq86whlm0vh7htwa3jsqucp77ntxr",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200003889
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 300013018
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "f03d9b33f5d5c7d387d6b5a83fda6ac15d317e8d2b2cc22862b29813f7009c70",
+        "addr": "kaspa:prcrmxen7h2u05u86666s076dtq46vt7354jes3gv2efsylhqzw8qw2m6jazk",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200006476
+        },
+        "node": {
+          "utxos": 3,
+          "sompi": 400014259
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "c1d8f8a0fb35ce3e7cb98fc46439ac9286956d6e285afbcf49923b1fabcf8f35",
+        "addr": "kaspa:prqa379qlv6uu0nuhx8ugepe4jfgd9tddc594770fxfrk8ate78n2l6ky47xl",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200008127
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 300017012
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "a2787584964abcd3fb8fece448749fe536ad4029e07334f2bd275dfcd463d0cc",
+        "addr": "kaspa:pz38savyje9te5lm3lkwgjr5nljndt2q98s8xd8jh5n4mlx5v0gvcte9wfwz6",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200003384
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 300013339
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "893597a496d43f946d008f4e7ea9b6db80d4f5bac303b81c451cb01d29bba7d4",
+        "addr": "kaspa:pzynt9ayjm2rl9rdqz85ul4fkmdcp484htps8wqug5wtq8ffhwnag8dw8gh2y",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200006928
+        },
+        "node": {
+          "utxos": 3,
+          "sompi": 400023679
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "88657dd40b029c1500f9f1a59cff37514ab55b4c4538c5c37e9943c070b8db71",
+        "addr": "kaspa:pzyx2lw5pvpfc9gql8c6t88lxag54d2mf3zn33wr06v58srshrdhzjgmmudhu",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200004263
+        },
+        "node": {
+          "utxos": 8,
+          "sompi": 900036200
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "151c3bda93d1eee5ffedb599b3c3fc3b0596cdeb24d90a71070cd0a6687fac8e",
+        "addr": "kaspa:pq23cw76j0g7ae0lak6env7rlsast9kdavjdjzn3quxdpfng07kgu2gapt5vz",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200006645
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 300007897
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "3102dcaf075209b6b59039f40d926c586f91549c020abc73e817d2bc7e1e5bf1",
+        "addr": "kaspa:pqcs9h90qafqnd44jqulgrvjd3vxly25nspq40rnaqta90r7redlzzk5gak3j",
+        "claim": {
+          "utxos": 1,
+          "sompi": 105000000
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 210000000
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "0e15c206c15610e6f82c22679380c2bc23261d94c21120bd2abe8dc9abda387e",
+        "addr": "kaspa:pq8ptssxc9tppehc9s3x0yuqc27zxfsajnppzg9a92lgmjdtmgu8uk2ej89rg",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200009551
+        },
+        "node": {
+          "utxos": 9,
+          "sompi": 1000047305
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "2d396295fc4da357ca36600ddc82865e26d1033a949643892921874817238f8f",
+        "addr": "kaspa:pqknjc54l3x6x472xesqmhyzse0zd5gr822fvsuf9yscwjqhyw8c7xjjptysh",
+        "claim": {
+          "utxos": 1,
+          "sompi": 150018308297
+        },
+        "node": {
+          "utxos": 58,
+          "sompi": 9835725611652
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "b96616e4480f3bb79ebfe13ebb3917c3dc260c14be16ecd013447be47799024e",
+        "addr": "kaspa:pzukv9hyfq8nhdu7hlsnaweezlpacfsvzjlpdmxszdz8herhnypyu7xrcn9fj",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200008797
+        },
+        "node": {
+          "utxos": 21,
+          "sompi": 2200134985
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "903d8ec078317299dc6740443d2ddcc747eb604978c08e873bb73d1fd911cf24",
+        "addr": "kaspa:pzgrmrkq0qch9xwuvaqyg0fdmnr506mqf9uvpr588wmn687ez88jgesjzjhdm",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200008316
+        },
+        "node": {
+          "utxos": 3,
+          "sompi": 600023715
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "9d1196f053c36297e2bb1ea90334da71f1bbd78b3db4d6dfc5913f67d09becf1",
+        "addr": "kaspa:pzw3r9hs20pk99lzhv02jqe5mfclrw7h3v7mf4klckgn7e7sn0k0zx2r2hn0n",
+        "claim": {
+          "utxos": 1,
+          "sompi": 100000000
+        },
+        "node": {
+          "utxos": 0,
+          "sompi": 0
+        },
+        "why": "address empty at check time"
+      },
+      {
+        "cid": "ab1b0fdc4e2f3477b6dd1ceb9f3287019b2689c364de992931c3ac95f4572a8b",
+        "addr": "kaspa:pz43kr7ufchngaakm5wwh8ejsuqekf5fcdjdaxffx8p6e9052u4gkmqys95lc",
+        "claim": {
+          "utxos": 1,
+          "sompi": 30000000
+        },
+        "node": {
+          "utxos": 0,
+          "sompi": 0
+        },
+        "why": "address empty at check time"
+      },
+      {
+        "cid": "5c22c357820b2b2b1079a20107f01e4d00e0970498ad11367e7b2dcf80c99ea9",
+        "addr": "kaspa:ppwz9s6hsg9jk2cs0x3qzplsrexspcyhqjv26yfk0eajmnuqex02j94d79jex",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200009462
+        },
+        "node": {
+          "utxos": 171,
+          "sompi": 17200946047
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "de663eec14ea95c609009836e58ea9d761497b45f05d2e0907f8155c67d82207",
+        "addr": "kaspa:pr0xv0hvzn4ft3sfqzvrdevw48tkzjtmghc96tsfqlup2hr8mq3qw0nlpfw6a",
+        "claim": {
+          "utxos": 1,
+          "sompi": 3700000000
+        },
+        "node": {
+          "utxos": 0,
+          "sompi": 0
+        },
+        "why": "address empty at check time"
+      },
+      {
+        "cid": "f4280ec4dfe6b6554f974c86f39ea86d7657dea2e4ec6650886487030fd519db",
+        "addr": "kaspa:pr6zsrkymlntv420jaxgduu74pkhv4775tjwcejs3pjgwqc065vakzkx02lgl",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200005675
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 400015150
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "0935945055f5d1504ea2a83fb89dc579218a34db88008b50844b1ecdd211784f",
+        "addr": "kaspa:pqynt9zs2h6az5zw525rlwyac4ujrz35mwyqpz6ss393anwjz9uy7rhdejpzu",
+        "claim": {
+          "utxos": 1,
+          "sompi": 30000000
+        },
+        "node": {
+          "utxos": 0,
+          "sompi": 0
+        },
+        "why": "address empty at check time"
+      },
+      {
+        "cid": "47d14b39ecca24f5f51461c15040841e0be9d9962d1d9e4a9efd9372faf232b7",
+        "addr": "kaspa:pprazjeean9zfa04z3suz5zqss0qh6wejck3m8j2nm7exuh67getwqxjymvev",
+        "claim": {
+          "utxos": 1,
+          "sompi": 30000000
+        },
+        "node": {
+          "utxos": 0,
+          "sompi": 0
+        },
+        "why": "address empty at check time"
+      },
+      {
+        "cid": "ad742242a3089c41518a1311720da763fe7d652dd192216d7089e37be886f243",
+        "addr": "kaspa:pzkhggjz5vyfcs233gf3zusd5a3lult99hgeygtdwzy7x7lgsmeyxer3kmgpv",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200006339
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 300009936
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "e4e2010f1fcc72edb6cff54a67697e9495e4475287b5e7bcf43ca1a51bf05685",
+        "addr": "kaspa:prjwyqg0rlx89mdkel655emf062ftez822rmteau7s72rfgm7ptg2kscw2mp6",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200001593
+        },
+        "node": {
+          "utxos": 5,
+          "sompi": 600024357
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "626d53191634e4c46008679d405be7871cb4be4cd9d772173860e40bad2d09ed",
+        "addr": "kaspa:pp3x65cezc6wf3rqppne6szmu7r3ed97fnvawush8pswgzad95y769tlr9k39",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200009193
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 305009193
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "80e32a518ac4ead9edfaeb195e44b29a8e347ccc188654a7a9501467554e41bb",
+        "addr": "kaspa:pzqwx2j33tzw4k0dlt43jhjyk2dgudruesvgv49849gpge64feqmk4js7qds8",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200003777
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 300009210
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "beb9f2ba1017341e52fe40a4e8c6a5946bbf0ff4d1644ee4eacdfe947c184b14",
+        "addr": "kaspa:pzltnu46zqtng8jjleq2f6xx5k2xh0c07ngkgnhyatxla9rurp93g6ucm6d82",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200007149
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 300012614
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "5000c81f858535a3a254e00d289128ef862194f72cc56b3576897f9e40961f11",
+        "addr": "kaspa:ppgqpjqlskzntgaz2nsq62y39rhcvgv57ukv26e4w6yhl8jqjc03zwdtjduyy",
+        "claim": {
+          "utxos": 1,
+          "sompi": 105000000
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 205005862
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "a1db31720b224eee4ea130deed9e2a8ec5fd5172447d7ff5df83c2addd4881fe",
+        "addr": "kaspa:pzsakvtjpv3yamjw5ycdamv7928vtl23wfz86ll4m7pu9twafzqlu4xysy3z7",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200007495
+        },
+        "node": {
+          "utxos": 3,
+          "sompi": 400023120
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "29efbe5749b979c14320b654a80b186084e8309a6c84715137cc7ded84465514",
+        "addr": "kaspa:pq57l0jhfxuhns2ryzm9f2qtrpsgf6psnfkggu23xlx8mmvyge23ghuynjc9s",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200005556
+        },
+        "node": {
+          "utxos": 15,
+          "sompi": 1600106891
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "17ce3a6bada11b1b6a49870b3f908206f110447e66d56600f4b907a4cc8d2fa5",
+        "addr": "kaspa:pqtuuwnt4ks3kxm2fxrsk0ussgr0zyzy0end2esq7jus0fxv35h62fftprehf",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200009466
+        },
+        "node": {
+          "utxos": 15,
+          "sompi": 1600077699
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "71d0a076f7d3ad381d08745cb5844b5b681a8096c06b067f926632d6a859ecb3",
+        "addr": "kaspa:ppcapgrk7lf66wqapp69edvyfddksx5qjmqxkpnljfnr944gt8ktxrygatkx8",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200003767
+        },
+        "node": {
+          "utxos": 2,
+          "sompi": 300013281
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "c22b46be45a843a916a855bb96f1c2885388de48d9f39e30fcc2ea30ba870715",
+        "addr": "kaspa:prpzk347gk5y82gk4p2mh9h3c2y98zx7frvl883slnpw5v96sur32r3vswjgs",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200002277
+        },
+        "node": {
+          "utxos": 6,
+          "sompi": 700028320
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "79363134995420a4fc9ffe9652027a3478f978f38ad5f3cbc5b6c97609d2eea1",
+        "addr": "kaspa:ppunvvf5n92zpf8unllfv5sz0g6837tc7w9dtu7tckmvjasf6th2zcy3qelnz",
+        "claim": {
+          "utxos": 1,
+          "sompi": 200005643
+        },
+        "node": {
+          "utxos": 5,
+          "sompi": 600039073
+        },
+        "why": "count/amount differs"
+      },
+      {
+        "cid": "82bd420ea5ab4db08a6cb2b3ba2d9ed02b235c20517786acc29c0e7dbdb2df21",
+        "addr": "kaspa:pzpt6ssw5k45mvy2djet8w3dnmgzkg6uypgh0p4vc2wquldakt0jzjxpccvgx",
+        "claim": {
+          "utxos": 1,
+          "sompi": 50000000
+        },
+        "node": {
+          "utxos": 0,
+          "sompi": 0
+        },
+        "why": "address empty at check time"
+      }
+    ]
+  },
+  "kaspalytics_context": {
+    "covenant_utxos_now": 15085,
+    "as_of": "2026-10-20T00:00:02.077Z"
+  }
+}
