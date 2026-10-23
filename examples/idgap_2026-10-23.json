@@ -1,0 +1,251 @@
+{
+  "snapshot_at": "2026-10-23T18:02:39Z",
+  "scripts": 33,
+  "live_utxos_total": 3072,
+  "outputs_with_onchain_covenant_id": 134,
+  "distinct_onchain_ids": 90,
+  "scripts_with_zero_id_outputs": 13,
+  "census_tenant_ids_total": 1173,
+  "census_ids_with_live_onchain_output_on_their_script": 46,
+  "census_ids_WITHOUT": 1127,
+  "kaspapulse_claims": {
+    "outputs_with_id": 103,
+    "distinct_ids": "<100",
+    "scripts_with_none": 13,
+    "ids_without": 1127,
+    "of_ids": 1173
+  },
+  "per_script": {
+    "kaspa:ppvnxxzm0rr37zpnwux2f2ntvfpr4uqdpm7zsvsztg3en92r7gs0wkmr72q9n": {
+      "live_utxos": 2902,
+      "outputs_with_onchain_id": 0,
+      "distinct_onchain_ids": 0,
+      "census_tenant_ids": 1083,
+      "census_ids_alive_onchain": 0
+    },
+    "kaspa:ppq25555vz6nchjxjptt2hm8npuu24k3n0ce98asus05k9vfuf85yzt20fa7e": {
+      "live_utxos": 16,
+      "outputs_with_onchain_id": 0,
+      "distinct_onchain_ids": 0,
+      "census_tenant_ids": 16,
+      "census_ids_alive_onchain": 0
+    },
+    "kaspa:ppg0wcw4a8427laxvn5nylsakrlxquf7cjj096usayw6srrcu0wczxv8078l4": {
+      "live_utxos": 7,
+      "outputs_with_onchain_id": 7,
+      "distinct_onchain_ids": 7,
+      "census_tenant_ids": 7,
+      "census_ids_alive_onchain": 7
+    },
+    "kaspa:pr2chnhkqevtq5r7evhyvjl2mzte8dugneth62lqxfdeqy3qw8fpv8u6t326z": {
+      "live_utxos": 14,
+      "outputs_with_onchain_id": 14,
+      "distinct_onchain_ids": 14,
+      "census_tenant_ids": 4,
+      "census_ids_alive_onchain": 4
+    },
+    "kaspa:pz90fld6xr95v4fghf9he36fqdylphah08km9sv53mq73j88h3zu2xqfx86d5": {
+      "live_utxos": 4,
+      "outputs_with_onchain_id": 0,
+      "distinct_onchain_ids": 0,
+      "census_tenant_ids": 4,
+      "census_ids_alive_onchain": 0
+    },
+    "kaspa:pqeuqnvv8wd3ahc56yrryev0tukw59rqf0yzf3jfataflqgjxh8ljndk2l0ll": {
+      "live_utxos": 21,
+      "outputs_with_onchain_id": 21,
+      "distinct_onchain_ids": 20,
+      "census_tenant_ids": 3,
+      "census_ids_alive_onchain": 3
+    },
+    "kaspa:pzj0sntud9eul2ynay8fx3efl43fvf7pt8034qmt6hyf3qcfjvjpxde6agteu": {
+      "live_utxos": 3,
+      "outputs_with_onchain_id": 3,
+      "distinct_onchain_ids": 3,
+      "census_tenant_ids": 3,
+      "census_ids_alive_onchain": 3
+    },
+    "kaspa:prc0897km55n726w4dxl3gq936r668nhgw72htdq655ymv5f96fjsuzddhwrr": {
+      "live_utxos": 1,
+      "outputs_with_onchain_id": 0,
+      "distinct_onchain_ids": 0,
+      "census_tenant_ids": 3,
+      "census_ids_alive_onchain": 0
+    },
+    "kaspa:pz9zyrj6vgn4ycfdlhg8sfj90ysg90njk3qu6swj8ztm33k3h7rw6rh7h04xk": {
+      "live_utxos": 14,
+      "outputs_with_onchain_id": 14,
+      "distinct_onchain_ids": 10,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 2
+    },
+    "kaspa:prs3s5u4j0ne2z0xnx8k4nxfwrxrdhv9khxxu3nl5regzxww8535c9nejkq7p": {
+      "live_utxos": 33,
+      "outputs_with_onchain_id": 33,
+      "distinct_onchain_ids": 33,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 2
+    },
+    "kaspa:pq3tc8amxf6685cx0qw0wfnq49lup0hm6mpunjnu9y2s3f2huhzxx858rtfr5": {
+      "live_utxos": 11,
+      "outputs_with_onchain_id": 11,
+      "distinct_onchain_ids": 11,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 2
+    },
+    "kaspa:pru0jgdueh7pm3v0f25e89h99jjjyndgc935dzcjgkmaapgd0pc97rzlwtgl3": {
+      "live_utxos": 8,
+      "outputs_with_onchain_id": 8,
+      "distinct_onchain_ids": 7,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 2
+    },
+    "kaspa:ppvr3vd7f6j6nmx2a0h2cgku94ku7zzh9r0fjmfz5522k92kcf6swkta9yhdk": {
+      "live_utxos": 2,
+      "outputs_with_onchain_id": 2,
+      "distinct_onchain_ids": 2,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 2
+    },
+    "kaspa:ppef0jhz8fqrm3wtxl6796yn4aqhsm5w3sd2qh4y067acxzjrusn6l6mg7kfn": {
+      "live_utxos": 2,
+      "outputs_with_onchain_id": 2,
+      "distinct_onchain_ids": 2,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 2
+    },
+    "kaspa:pqxjm78tdw9dd75f4tyf0qh0wg68su43dx8j0g7ey9dr26ty0xj7x2g76tef9": {
+      "live_utxos": 2,
+      "outputs_with_onchain_id": 1,
+      "distinct_onchain_ids": 1,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 1
+    },
+    "kaspa:ppnsz9gete7gqg7lcez3dm4gnk6pusrucpplywwv0sdf4gs44z5pqgrsajadv": {
+      "live_utxos": 2,
+      "outputs_with_onchain_id": 0,
+      "distinct_onchain_ids": 0,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 0
+    },
+    "kaspa:ppmmezmxdwydk3y74mt5ptlzda6d4vjh3m5fm2vg5macgrhav4qc2n348qw8w": {
+      "live_utxos": 2,
+      "outputs_with_onchain_id": 0,
+      "distinct_onchain_ids": 0,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 0
+    },
+    "kaspa:pqj0m0g7yjg298gwu5k38jff2njg0cqu7fn7hfm9dungwjdjthqa7ymjw9wuz": {
+      "live_utxos": 2,
+      "outputs_with_onchain_id": 0,
+      "distinct_onchain_ids": 0,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 0
+    },
+    "kaspa:pp4np04j42dvzq2myfke5d7dnfjmr76rznlhs5pq4x0tp88vnw8uxfp9qksr5": {
+      "live_utxos": 2,
+      "outputs_with_onchain_id": 2,
+      "distinct_onchain_ids": 2,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 2
+    },
+    "kaspa:pp9t0zeg4lmvggrveyscftkrtj4zceegq603yrpqcw258mrps6hsjspwphw5a": {
+      "live_utxos": 2,
+      "outputs_with_onchain_id": 2,
+      "distinct_onchain_ids": 2,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 2
+    },
+    "kaspa:pqs579efanth3crd4alt34pa73fnzx3fg2qsp3fnr4d5rjmf5hj2jy6d8j9h0": {
+      "live_utxos": 2,
+      "outputs_with_onchain_id": 2,
+      "distinct_onchain_ids": 2,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 2
+    },
+    "kaspa:prjauxz08f290j82m53ygecs6vwmguhwx0j0ygawra45zuzrtdpmsjm99wk8h": {
+      "live_utxos": 2,
+      "outputs_with_onchain_id": 2,
+      "distinct_onchain_ids": 2,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 2
+    },
+    "kaspa:pp2gawzxz47eu3nckvf7m4et3p77pkja5kk2mpg8909ruga2xq5eqpwlrmajy": {
+      "live_utxos": 2,
+      "outputs_with_onchain_id": 0,
+      "distinct_onchain_ids": 0,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 0
+    },
+    "kaspa:pqjmpds9cz4gxc9ncjr25wd9rwmy9cj2wmhmw0rnq2hgakg8taycs9yzytzn7": {
+      "live_utxos": 2,
+      "outputs_with_onchain_id": 2,
+      "distinct_onchain_ids": 2,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 1
+    },
+    "kaspa:pqja6sxgtjryz5jcpepa53q99n3uptjw9fzqhq58kaftuejrapamc8re033f4": {
+      "live_utxos": 2,
+      "outputs_with_onchain_id": 0,
+      "distinct_onchain_ids": 0,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 0
+    },
+    "kaspa:pqhkpa02egqz2zlzqs9f4h0p7ssrcuam760ad09g9alq2l5z2jrvc2j95eruk": {
+      "live_utxos": 1,
+      "outputs_with_onchain_id": 0,
+      "distinct_onchain_ids": 0,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 0
+    },
+    "kaspa:pp746csxk0s0qnhjgv48emtnpeem5kv7mvcqzep94gjk8qvaxhspyfs73w875": {
+      "live_utxos": 1,
+      "outputs_with_onchain_id": 0,
+      "distinct_onchain_ids": 0,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 0
+    },
+    "kaspa:pqqjnp96j2re9zxq08mryuffmrwz4pfrj2zampmf59sczzl4q6vl6vd06kfe7": {
+      "live_utxos": 1,
+      "outputs_with_onchain_id": 0,
+      "distinct_onchain_ids": 0,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 0
+    },
+    "kaspa:prlx27g2na6vmnak7a0zhzsdkw6w8l9wgkl4zzdajgqe32spsh0mcdjlmdstp": {
+      "live_utxos": 1,
+      "outputs_with_onchain_id": 0,
+      "distinct_onchain_ids": 0,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 0
+    },
+    "kaspa:pr226aczu5pxt4paegsqt4250dgffzhul0v0l35f4squ4jhzl3dfcxasch3dw": {
+      "live_utxos": 2,
+      "outputs_with_onchain_id": 2,
+      "distinct_onchain_ids": 2,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 1
+    },
+    "kaspa:pzhzru6kpmzhvzgvetlcqfskgj2fuzkxk2m886gsx5yycls5ndzpq5wsntlf3": {
+      "live_utxos": 2,
+      "outputs_with_onchain_id": 2,
+      "distinct_onchain_ids": 2,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 2
+    },
+    "kaspa:pp0xs8pln5q0wq9gaj4wc7cu4gk28zzwhv3ch7ntfdaspgwg6qwlxq0ekk3gr": {
+      "live_utxos": 2,
+      "outputs_with_onchain_id": 2,
+      "distinct_onchain_ids": 2,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 2
+    },
+    "kaspa:pzqzr5kyqjr793f7u2yafav2slj4m3gf8lmd0g22gmnn6yyn4smlxypmfdryq": {
+      "live_utxos": 2,
+      "outputs_with_onchain_id": 2,
+      "distinct_onchain_ids": 2,
+      "census_tenant_ids": 2,
+      "census_ids_alive_onchain": 2
+    }
+  }
+}
